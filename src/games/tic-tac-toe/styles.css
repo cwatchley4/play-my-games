@@ -1,0 +1,65 @@
+.ttt__app {
+  height: calc(100dvh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ttt__game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 548px;
+}
+
+.ttt__start-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ttt__title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.ttt__board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ttt__message {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.ttt__square {
+  font-family: "VT323";
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background-color: #b89265;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: #6a4c3a;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em #9c7354;
+  cursor: pointer;
+}
+
+.ttt__square:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.2em;
+}
