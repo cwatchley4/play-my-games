@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "VT323";
+  src: url(./fonts/VT323-Regular.ttf);
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
